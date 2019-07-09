@@ -13,7 +13,8 @@
   </div>
 </template>
 
-<script>import {Ruler} from 'mand-mobile'
+<script>
+import {Ruler} from 'mand-mobile'
 
 export default {
   name: 'ruler-demo',
@@ -28,12 +29,13 @@ export default {
   },
   data() {
     return {
-      value: 1300,
+      value: 1400,
       scope: [1000, 2000],
     }
   },
 }
-</script>
+
+</script>
 
 <style lang="stylus" scoped>
   .md-example-child-single-component
